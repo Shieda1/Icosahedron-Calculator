@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Icosahedron Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="surfaceAreaofIcosahedronRadio" name="variables" checked>
+  <label for="surfaceAreaofIcosahedronRadio">Surface Area of Icosahedron</label>
+
+  <input type="radio" id="volumeofIcosahedronRadio" name="variables">
+  <label for="volumeofIcosahedronRadio">Volume of Icosahedron</label>
+
+  <input type="radio" id="lengthofanyEdgeRadio" name="variables">
+  <label for="lengthofanyEdgeRadio">Length of any Edge</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">(s) Length of any Edge</label>
+  <input type="number" id="v1"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
